@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CART.css">
+  
+    <title>CART</title>
+</head>
+<body>
+    <header id="header">
+        <a href="#" id="name" class="name">BU BOOKSHOP.</a>
+        <ul>
+            <li><a href="./BOOKSHOP%202.html" id="home">Home</a></li>
+            <li><a href="./catalogue.html">Catalogue</a></li>
+            <li><a href="#"class="active">Cart</a></li>
+        </ul>
+        <div class="buttons">
+            <button type="submit" class="button">Publish</button>
+            <a href = "./Login.html"><button type="submit" id ="button"class="button2">Log Out</button></a>
+        </div>
+    </header>
+    <h1 class="h1">Checkout</h1>
+    <div class="sideinfo">
+        <div class="email">
+            <h1 class="h2">YOUR INFORMATION</h1>
+            <h2 class="h2" id="h3">E-mail</h2>
+            <div class="information"><input type="text" placeholder="example@gmail.com" name="uname" required></div>
+        </div>
+        <div class="buy">
+            <h1 class="h2">PAYMENT</h1>
+        </div>
+    </div>
+    <div class="middle">
+        <div class="shoCart">
+            <h1 class="h2">SHOPPING CART</h1>
+            <div class="line1"></div>
+            <div class="flex">
+                <h2 class="h3">Item</h2>
+                <h2 class="h4">Price</h2>
+                <h2 class="h5">Quantity</h2>
+            </div>
+            <div class="cart-rows">
+                <div class="cart-flex2">
+                    <div class="cart-item">
+                        <img src="1.jpg">
+                        <p class="itemtxt"><a href ="./BOOK4.html">Harry Potter and The Philosopher's Stone</a><br><span class=author id="author">Author: J.K ROWLING</span><br><span class=author>Availability: In stock</span></p>
+                    </div>
+                        <p class="cart-price">$13.99</p>
+                    <div class="quantfl">
+                        <input class="cart-quant" type="number" value="2">
+                        <button class="btn-danger">Remove</button>
+                    </div>
+                </div>
+                
+                <div class="cart-flex2">
+                    <div class="cart-item">
+                        <img src="11.jpg">
+                        <p class="itemtxt"><a href ="./BOOK1.html">Fantastic Beasts And Where To Find Them</a><br><span class=author>Author: J.K ROWLING</span><br><span class=author>Availability: In stock</span></p>
+                    </div>
+                        <p class="cart-price">$13.99</p>
+                    <div class="quantfl">
+                        <input class="cart-quant" id="quant" type="number" value="2">
+                        <button class="btn-danger">Remove</button>
+                    </div>
+                </div>
+                <div class="cart-flex2">
+                    <div class="cart-item">
+                        <img src="3.jpg">
+                        <p class="itemtxt"><a href ="./BOOK2.html">Harry Potter and the Prisoner of Azkaban</a><br><span class=author>Author: J.K ROWLING</span><br><span class=author>Availability: In stock</span></p>
+                    </div>
+                        <p class="cart-price">$13.99</p>
+                    <div class="quantfl">
+                        <input class="cart-quant" type="number" value="2">
+                        <button class="btn-danger">Remove</button>
+                    </div>
+                </div>
+               
+                    <div class="cart-flex2">
+                        <div class="cart-item">
+                            <img src="12.jpg">
+                            <p class="itemtxt"><a href="./BOOK3.html">Quidditch Through The Ages: Kennilworthy Whisp</a><br><span class=author>Author: J.K ROWLING</span><br><span class=author>Availability: In stock</span></p>
+                        </div>
+                            <p class="cart-price">$13.99</p>
+                        <div class="quantfl">
+                            <input class="cart-quant" type="number" value="2">
+                            <button class="btn-danger">Remove</button>
+                        </div>
+                    </div>
+                </a>
+                
+                    <div class="cart-flex2">
+                        <div class="cart-item" id="cartitem2">
+                            <img src="7.jpg">
+                            <p class="itemtxt"><a href="./BOOK5.html">Harry Potter And The Deathly Hollows</a><br><span class=author>Author: J.K ROWLING</span><br><span class=author>Availability: In stock</span></p>
+                        </div>
+                            <p class="cart-price">$13.99</p>
+                        <div class="quantfl">
+                            <input class="cart-quant" type="number" value="2">
+                            <button class="btn-danger">Remove</button>
+                        </div>
+                    </div>
+                </a>
+                
+                <div class="cart-flex2">
+                    <div class="cart-item">
+                        <img src="9.jpg">
+                        <p class="itemtxt"><a href="./BOOK6.html">Fantastic Beasts: The Original Screenplay</a><br><span class=author>Author: J.K ROWLING</span><br><span class=author>Availability: In stock</span></p>
+                    </div>
+                        <p class="cart-price">$13.99</p>
+                    <div class="quantfl">
+                        <input class="cart-quant" type="number" value="2">
+                        <button class="btn-danger">Remove</button>
+                    </div>
+                </div>
+            </a>
+          </div>
+        </div>
+        <h2 class="cart-total">Total:<span class="cart-total-price">$27.98</span></h2>
+        
+    </div>
+      
+    <div class="footer">
+        <div class="dt25"><div class="dtimg">
+          <div class="dtimage"><img src="books.png"></div>
+          <h1 class="h25">BU BOOKSHOP.</h1>
+          </div>
+        <p class="p25">At BU BOOKSHOP we don't just take<br>your money, we help you to find your perfect<br>Book.</p>
+      <div class="socials">
+        <a href="#"><img class="social"src="twitter.png"></a>
+        <a href="#"><img class="social"src="instagram.png"></a>
+        <a href="#"><img class="social"src="facebook.png"></a>
+      </div>
+      </div>
+            <div class="services1">
+            <div id="serv1" class="buy1">
+              <h1 class="h92">Navigation</h1>
+              <ul>
+                <li><a href="#"class="active" id="home">Home</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Best Selling Books</a></li>
+                <li><a href="#">Search</a></li>
+            </ul>
+            </div>
+            <div id="serv1" class="Sell1">
+              <h1 class="h92">Services</h1>
+              <ul>
+                <li><a href="./catalogue.html">Catalogue</a></li>
+                <li><a href="#">Rent</a></li>
+            </ul>
+            </div>
+            <div id="serv1" class="Rent1">
+              <h1 class="h92">Company</h1>
+              <ul>
+                <li><a href="#"class="active" id="home">About us</a></li>
+                <li><a href="#">FAQs</a></li>
+                <li><a href="#">Contact us</a></li>
+                <li><a href="#">Our Agents</a></li>
+            </ul>
+            </div>
+            <div id="serv1" class="contact">
+              <h1 class="h92">Contact us</h1>
+              <ul>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" class="email" id="email">GROUP3@gmail.com</a></li>
+                <li><a href="#" class="number">+234(812)-050-6592</a></li>
+            </ul>
+            </div>
+          </div></div>
+      </div>
+      
+      <footer>
+        <p class="name2">Copyright © 2022 - BU BOOKSHOP | Designed by <a href="#">Dapo-Thomas</a></p>
+      </footer>
+  
+  
+  
+        
+    
+    
+    
+    <script src="BOOKSHOP.js" ></script>
+</body>
+</html>

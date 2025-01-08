@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700,800,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+body
+{
+    background-color: rgba(118, 84, 38, 0.52);
+}
+.body img
+{
+    position: absolute;
+    width: 330px;
+    height:100%;
+}
+.bubook
+{
+    position: relative;
+    font-size: 15px;
+    font-family: 'Poppins';
+
+}
+.blackoverlay
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    margin-top: -20px;
+    height: 650px;
+    width: 1340px;
+    background-attachment: fixed;
+    background-size: cover;
+}
+img.actual
+{
+    height: 661px;
+    margin-left: -30px;
+    width: 1380px;
+    opacity: 0.4;
+    filter: brightness(40%);
+    filter: blur(3px);
+}
+.middle
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position:relative;
+    text-align: center;
+    align-content: center;
+    margin-left: -140px;
+    margin-top: -420px;
+    height: 200px;
+}
+.dtimage
+{
+    position: relative;
+    top: -130px;
+    left: 175px;
+    z-index: 2000000;
+}
+.wall
+{
+    position: relative;
+    margin-top: -145px;
+    width: 470px;
+    height: 500px;
+}
+.wall img
+{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(70%);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.158);
+}
+.blacktext
+{
+    position: relative;
+    font-size: 28px;
+    font-family: 'Poppins';
+    color: white;
+    top: -330px;
+}
+/* .p20
+{
+    position: relative;
+    top: -40px;
+    color: #949494;
+    font-size: 13px;
+} */
+.p25
+{
+    position: relative;
+    font-family: 'Poppins';
+    text-align: center;
+    width: 250px;
+    font-size: 13px;
+    color: rgb(228, 228, 228);
+    left: 110px;
+    top: -340px;
+}
+
+.loginh1
+{
+    position: relative;
+    top: -50px;
+    margin-top: 160px;
+}
+.loginbx
+{
+    position: relative;
+    border-style: solid;
+    border-color: rgba(198, 198, 198, 0);
+    box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.158);
+    border-width: 0.1px;
+    margin-top: 10px;
+    width: 470px;
+    height: 500px;
+    align-self: center;
+    align-content: center;
+    background-color: #fff;
+    font-family: 'Poppins';
+    font-size: 15px;
+    font-weight: 500px;
+}
+.username
+{
+    height: 45px;
+}
+.loginss
+{
+    height: 250px;
+    position: relative;
+    margin-top: -40px;
+}
+input[type=text], input[type=password] {
+    width: 280px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 36px;
+    display: inline-block;
+    background-color: rgba(239, 239, 239, 0.34);
+    border: 1px solid  rgba(198, 198, 198, 0);;
+    box-sizing: border-box;
+    border-radius: 20px;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    
+  }
+  .login
+  {
+    width: 280px;
+    background-color: black;
+    
+    padding: 8px;
+    border-radius: 3px;
+    margin-top: 4px;
+    border-style: none;
+    color: #fff;
+  }
+  .login:hover
+  {
+    background-color: rgb(54, 54, 54);
+    cursor: pointer;
+  }
+  .or
+  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  .p1
+  {
+    margin-inline: 10px;
+    color: rgb(163, 163, 163);
+    font-family:sans-serif;
+    font-size: 11.5px;
+  }
+  .line1
+  {
+    width: 117px;
+    height:0.1px;
+    background-color: rgb(209, 209, 209);
+    margin-top: 18px;
+  }
+  .faceb a
+  {
+    text-decoration: none;
+    color: #385185;
+  }
+  .faceb
+  {
+    margin-top: 15px;
+    font-family:sans-serif;
+    font-weight:bolder;
+    font-size: 13px;
+  }
+  .forg
+  {
+    margin:15px;
+  }
+  .forg a
+  {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    color: rgb(0, 0, 0);
+  }
+
+/* 2nd */
+
+.Noacct
+{
+    position: relative;
+    margin-top: 10px;
+    border-style: solid;
+    border-color: rgba(198, 198, 198, 0.486);
+    border-width: 0.1px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 370px;
+    align-self: center;
+    align-content: center;
+    background-color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.p2
+{
+    margin-top: 40px;
+    font-size: 13px;
+    color: #949494;
+}
+.p2 a
+{
+    text-decoration: none;
+    color:#000000;
+    font-family: 'Poppins';
+    margin-left: 4px;
+    font-weight: 700;
+}
+.p2 a:hover
+{
+    text-decoration: underline;
+    transition: 0.6s;
+}
+.Noacct a
+{
+    text-decoration: none;
+    color:#0095f6;
+    font-weight: bolder;
+}
+.p3
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+}
+.phone
+{
+    display: flex;
+    flex-direction: row;
+    width:200px;
+    height:5px;
+}
+.phone img
+{
+    width: 100%;
+    height: 1000%;
+    object-fit: cover;
+}
